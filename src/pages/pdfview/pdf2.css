@@ -1,0 +1,142 @@
+.cardtwo {
+    max-width: 100%;
+    background: url("/public/assets/img/bg_idcard.jpeg");
+    
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1588px;
+  }
+  .cardthree {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 100%;
+    background: url("/public/assets/img/backside.jpeg");
+    
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+  
+    /* padding: 20px; */
+    height: 1588px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .buttonpdf {
+    border: none;
+    position: fixed;
+    bottom: 0%;
+  z-index: 10;
+  height: 60px;
+    outline: 0;
+    text-align: center;
+    /* display: inline-block; */
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+  }
+  /* 
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  } */
+  
+  .buttonpdf:hover{
+    opacity: 0.7;
+  }
+  
+  .cardtwo img{
+    width: 538px;
+    height: 712px;
+  }
+  
+  .imgPdf{
+    position: absolute;
+    top: 26.4%;
+    right: 47%;
+    width: 300px;
+    
+    /* border: 1px solid black; */
+  }
+  
+  .namePdf{
+    position: absolute;
+    /* border: 1px solid black; */
+    bottom: 17%;
+    height: 145px;
+    width: 695px;
+    right: 19%;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;align-items: center;
+  }
+  
+  .designPdf{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 11.7%;
+    height: 60px;
+    font-size: 35px;
+    width: 455px;
+    right: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;align-items: center;
+  }
+  .projectPdf{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 6%;
+    height: 60px;
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+    /* right: 5.7%; */
+    display: flex;
+    justify-content: center;
+    color: red;align-items: center;
+  }
+  .employeidPdf{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 4%;
+    height: 60px;
+    font-weight: 800;
+    font-size: 25px;
+    width: 100%;
+    /* right: 10%; */
+    display: flex;
+    justify-content: center;
+    color: black;align-items: center;
+  }
+  .bloodidPdf{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 1.9%;
+    height: 60px;
+    font-weight: 800;
+    font-size: 25px;
+    width: 100%;
+    /* right: 0%; */
+    display: flex;
+    justify-content: center;
+    color: black;align-items: center;
+  }
+  
+  /* 
+  .pdfimg{
+    
+    width: 40%;
+    margin: auto;
+  } */
