@@ -8,6 +8,8 @@ import { usePdfUserList } from "../../hooks/pdfuser";
 
 const PdfList = () => {
   const { pdfuser, pdfuserIsLoading } = usePdfUserList();
+console.log(pdfuser);
+  
   // const { blogData, blogIsLoading } = useBlogList();
   const [filterText, setFilterText] = useState("");
   const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
@@ -126,7 +128,7 @@ const PdfList = () => {
   }
 
   const filteredItems =
-    pdfuser.length > 0
+   pdfuser && pdfuser.length > 0
       ? pdfuser.filter(
           (item) =>
             JSON.stringify(item)

@@ -5,9 +5,12 @@ import MainPage from "../pages";
 // import SLackPage from "../pages/slack/Slack";
 // import Task from "../pages/task/Task";
 // import Members from "../pages/members/Members";
-import PdfView from "../pages/pdfview/PdfView";
 import ExcelToPdf from "../pages/exceltopdf/ExceltoPdf";
+import EmployeeTable from "../pages/pdfid/PdfId";
 // import PDFFile from "../pages/pdfview/PdfFile";
+import PdfView from "../pages/testclean/PdfView";
+import DataPdf from "../pages/testclean/DataPdf";
+// import PdfView from "../pages/pdfview/PdfView";
 
 export default function AppRoutes() {
  
@@ -16,7 +19,9 @@ export default function AppRoutes() {
     <Routes>
         <Route index element={<MainPage />} />
         <Route path="/view-pdf/:id" element={<PdfView />} />
+        {/* <Route path="/view-pdf/:id" element={<DataPdf />} /> */}
         <Route path="/exceltoPdf" element={<ExcelToPdf />} />
+        {/* <Route path="/exceltoPdf" element={<EmployeeTable />} /> */}
         {/* <Route path="/productivity" element={<RestPage />} />
         <Route path="/productivity/add" element={<AddRestaurantPage />} />
         <Route path="/task" element={<Task/>} />
